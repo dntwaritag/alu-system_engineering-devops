@@ -1,0 +1,1 @@
+This project aims to automate the configuration of a web server on Ubuntu 16.04 LTS according to specified requirements. The main focus is on automating tasks that would typically be done manually, promoting efficiency and scalability in managing server configurations.

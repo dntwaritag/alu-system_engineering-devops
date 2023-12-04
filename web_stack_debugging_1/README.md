@@ -1,0 +1,1 @@
+This Bash script is designed to help you troubleshoot and configure your Nginx installation on an Ubuntu container by replacing the default port from 8080 to 80 and restarting the Nginx service. It can be useful if you are experiencing issues with Nginx not listening on port 80 as expected.

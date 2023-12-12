@@ -1,17 +1,8 @@
 #!/usr/bin/env bash
 # Bash script that configures container
-
-# Change permissions for nginx directories
 sudo chmod -R 755 /etc/nginx/
-
-# Stop Apache
 sudo pkill -9 apache2
-
-# Change Apache port from 8080 to 8081
 sudo sed -i 's/8080/8081/g' /etc/apache2/ports.conf
-
-# Modify Nginx default configuration to listen on port 8080
 sudo sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
-
-# Restart Nginx service
 sudo service nginx restart
+
